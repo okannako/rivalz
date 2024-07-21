@@ -9,6 +9,7 @@
 - rClient kurulumu için gerekli kodları hazırladım. Kolaylıkla kurulum yapabilirsiniz. Daha ayrıntılı kurulum videoda mevcut. Kurulumdan önce yaptığım uyarılar önemli lütfen dinleyiniz. Daha sonra karar verirseniz sırayla kodları girebilirsiniz.
 
 ```
+sudo apt update
 sudo apt install tmux
 tmux
 sudo apt install nodejs
