@@ -20,7 +20,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 source ~/.bashrc
 nvm list-remote
 nvm install v20.15.1
-npm i -g rivalz-node-cli
+npm i -g rivalz-node-cli@2.6.2
 rivalz run
 ```
 
@@ -35,3 +35,13 @@ rivalz run
   6 > Taoplam disk miktarından kullandırmak istediğiniz miktarı girin
 
 - Daha sonra yazılar akmaya başlayacak, sonraki işlemi videoyu izleyerek görebilirsiniz. Teşekkürler.
+
+## 3. Epoch için Güncelleme Adımları ve Kodları 
+- Kodları sırayla girerek işlemi tamamlıyoruz.
+```
+tmux ls
+tmux attach -t tmuxadı
+ctrl+c #kod değil basıyoruz
+npm i -g rivalz-node-cli@2.6.2
+rivalz run
+```
